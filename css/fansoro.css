@@ -1,0 +1,39 @@
+body {
+    background: url('../img/bg-red.jpg');
+    background-color: #000;
+    background-size: cover;
+}
+
+.fansoro-icon {
+    padding-top: 140px;
+    padding-bottom: 40px;
+}
+
+.fansoro-description {
+    font-size: 28px;
+
+    width: 600px;
+    margin: 0 auto;
+
+    color: #ff0;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.btn-download-fansoro {
+    margin-top: 30px;
+    padding: 12px 35px;
+
+    transition: all .3s ease;
+
+    color: #ff0;
+    border: 2px solid #ff0;
+    border-radius: 25px;
+    background: 0 0;
+}
+
+.btn-download-fansoro:hover {
+    color: #000;
+    border: 2px solid #ff0;
+    background: #ff0;
+    text-shadow: none;
+}
